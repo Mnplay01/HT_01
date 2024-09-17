@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'DD';
+    src: url(font/DD-font.otf)
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgb(0, 0, 0)
+}
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 30vh
+}
+.gm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px
+}
+
+.gm-txt {
+    flex-grow: 1
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px
+}
+
+.name {
+    font-family: 'DD';
+    -webkit-text-stroke: 0.1px rgb(202, 58, 58);
+    font-size: 45px
+}
+
+.wtxt {
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 19px
+}
+
+.red {
+    color: rgba(168, 63, 55, 0.781);
+    font-size: 22px
+}
+
+.hook {
+    color: rgba(87, 100, 100, 0.781);
+    font-size: 22px
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 57vh
+}
+.trailer {
+    margin: 0 auto;
+}
+
+
